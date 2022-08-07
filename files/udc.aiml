@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+ <category>
+    <pattern>* metodologi</pattern>
+    <template>Maaf saya tidak dapat menjawab pertanyaan ini. Untuk layanan lebih lanjut silakan gunakan layanan konsultasi vitual.</template>
+  </category>
+  
+  <category>
+      <pattern>publikasi kemiskinan</pattern>
+      <template><card>
+          <image>https://sumsel.bps.go.id/publication/getImageCover.html?url=MjAyMi0wOC0wOCMjaHR0cHM6Ly9wb3J0YWxwdWJsaWthc2kuYnBzLmdvLmlkL2FwaS9nZXRLb3Zlci5waHA%2Fc2VsZWN0b3I9Y2U0ZTNiMTE3NDQyN2Q1MzQzZjYzZWQz</image>
+      <title>Perkembangan Beberapa Indikator Strategis Sosial-Ekonomi Provinsi Sumatera Selatan Semester II 2021</title>
+      <subtitle>2022-03-25</subtitle>
+      <button>
+          <text></text>
+          <postback></postback>
+      </button>
+      </card>
+      <button>
+          <text>Download</text>
+          <url>https://sumsel.bps.go.id/publication/downloadapi.html?data=nkiVt6O05cI6S2l1GYmLGQSnWPOgrxymo3HOHoU4g8ljr%2Fz9pv6ACOhgVnA9JQ6UYQPrFMLiT6hlfXrxheawBkUlk1cH5N8j5EmUw52emDI%3D&tokenuser=6a75777163d631054734a55fb91f8f07</url>
+      </button>
+      </template>
+  </category>
+  
+  <card>
+      <image>https://sumsel.bps.go.id/publication/getImageCover.html?url=MjAyMi0wOC0wOCMjaHR0cHM6Ly9wb3J0YWxwdWJsaWthc2kuYnBzLmdvLmlkL2FwaS9nZXRLb3Zlci5waHA%2Fc2VsZWN0b3I9Y2U0ZTNiMTE3NDQyN2Q1MzQzZjYzZWQz</image>
+      <title>Perkembangan Beberapa Indikator Strategis Sosial-Ekonomi Provinsi Sumatera Selatan Semester II 2021</title>
+      <subtitle>2022-03-25</subtitle>
+      <button>
+          <text>Download</text>
+          <postback></postback>
+      </button>
+  </card>
+
+<category>
+    <pattern>Hai</pattern>
+    <template>Halo, selamat datang di layanan chatbot PST BPS SUMSSEL 😊. Ada yang bisa kami bantu?
+</template>
+</category>
+
+
+</aiml>
